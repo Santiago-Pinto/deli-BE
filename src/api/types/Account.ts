@@ -1,5 +1,5 @@
 
-export class User {
+export class Account {
   declare email: string;
   declare fullName: string;
   declare age: number;

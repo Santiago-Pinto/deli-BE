@@ -1,11 +1,11 @@
 import express, { Application, json } from "express";
-import { UserRouter } from "./api/routes/user";
+import { AccountsRouter } from "./api/routes/accounts";
 
 const app: Application = express();
 const PORT = process.env.PORT || 3000;
 // Here go the routers
 app.use(json());
-app.use("/user", UserRouter);
+app.use("/accounts", AccountsRouter);
 
 if (process.env.NODE_ENV !== "test") {
   app.listen(PORT, async () => {
