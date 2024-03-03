@@ -15,10 +15,6 @@ export class AccountsController {
     this.mailService = new MailService();
   }
 
-  getAccounts = (request: Request, response: Response) => {
-    response.send("It's alive !");
-  };
-
   createAccount = async (request: Request, response: Response) => {
     const { body } = request;
 
