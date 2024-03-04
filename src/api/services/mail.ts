@@ -19,7 +19,7 @@ export class MailService {
   }
 
   sendMail = async (account: Account) => {
-    const htmlTemplate = fs.readFileSync(path.join(__dirname, "../templates/mail.html"), "utf-8");
+    const htmlTemplate = fs.readFileSync(path.join(__dirname, "../templates/welcome.html"), "utf-8");
 
     const mail: MailOptions = {
       from: process.env.MAILER_MAIL || "",
