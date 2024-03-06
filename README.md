@@ -12,14 +12,14 @@ Navegar hasta el directorio `src/api/config` y crea un archivo `development.env`
 
 ### 3. Dependencias
 
-Ejecutar el siguiente comando para instalar las dependencias necesarias: **_npm install_**
+Ejecutar el siguiente comando para instalar las dependencias necesarias: `**_npm install_**`
 
 ## Uso
 
-Para ejecutar el proyecto en modo de desarrollo, se debe usar el siguiente comando: **_npm run dev_**
+Para ejecutar el proyecto en modo de desarrollo, se debe usar el siguiente comando: `**_npm run dev_**`
 
 ## Tests
 
-Para ejecutar las pruebas, utilizar el siguiente comando: **_npm run test_**
+Para ejecutar las pruebas, utilizar el siguiente comando: `**_npm run test_**`
 
 
