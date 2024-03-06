@@ -8,7 +8,7 @@ Clonar el repositorio: **_git clone https://github.com/Santiago-Pinto/deli-BE.gi
 
 ### 2. Crear un archivo development.env
 
-Navegar hasta el directorio `src/api/config` y crea un archivo `development.env`. Se debe seguir la estructura proporcionada en el archivo `.env.example`.
+Navegar hasta el directorio `src/api/config` y crea un archivo `development.env`. Se debe seguir la estructura proporcionada en el archivo `env.example`.
 
 ### 3. Dependencias
 
