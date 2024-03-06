@@ -4,7 +4,7 @@
 
 ### 1. Clonar el repositorio
 
-Clonar el repositorio: *_git clone https://github.com/Santiago-Pinto/deli-BE.git*_
+Clonar el repositorio: *_git clone https://github.com/Santiago-Pinto/deli-BE.git*
 
 ### 2. Crear un archivo development.env
 
