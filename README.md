@@ -6,7 +6,7 @@
 
 Clonar el repositorio: **_git clone https://github.com/Santiago-Pinto/deli-BE.git_**
 
-### 2. Crear un archivo development.env
+### 2. Variables de entorno
 
 Navegar hasta el directorio `src/api/config` y crea un archivo `development.env`. Se debe seguir la estructura proporcionada en el archivo `.env.example`. (Si no se encuentra el .env.example, verificar que sean visibles los archivos ocultos)
 
