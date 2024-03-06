@@ -1,7 +1,7 @@
 import supertest from "supertest";
 import { describe, test, expect } from "@jest/globals";
-import { statusCodes } from "../../api/utils/statusCodes";
-import app from "../../index";
+import { statusCodes } from "../api/utils/statusCodes";
+import app from "..";
 
 const setupTest = async () => {
   let response: any;
