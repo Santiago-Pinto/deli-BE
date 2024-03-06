@@ -30,8 +30,8 @@ export class MailService {
 
     try {
       this.transporter.sendMail(mail);
-    } catch {
-      throw new Error("Mail service failed");
+    } catch (error: unknown) {
+      throw new Error(`Mail service failed: ${error}`);
     }
   };
 }
